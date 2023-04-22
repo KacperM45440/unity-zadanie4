@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 3695997071169085955}
   - component: {fileID: 1974420474530562979}
   m_Layer: 6
-  m_Name: Projectile_Player
+  m_Name: Projectile_Player_Type1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,7 +164,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 1}
+  m_Size: {x: 0.38, y: 0.79}
   m_EdgeRadius: 0
 --- !u!114 &1974420474530562979
 MonoBehaviour:

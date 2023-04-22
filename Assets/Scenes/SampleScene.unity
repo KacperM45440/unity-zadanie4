@@ -389,7 +389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff8ef06a8e0f5ad489aec70af63d1ff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 8117381869748711504, guid: 5e9b7b82069ff4e45891e79fd8f25d5b, type: 3}
+  projectilePrefab: {fileID: 8117381869748711504, guid: 20380b7216c244341ad52daa4fc98580, type: 3}
   projectileSpeed: 10
   projectileLifeTime: 5
   baseFiringRate: 0.2
@@ -404,6 +404,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2071764978, guid: dc22dd493163e9a4cbcbffaedcf4a818, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 8117381869748711504, guid: 20380b7216c244341ad52daa4fc98580, type: 3}
+    - target: {fileID: 2120784567, guid: dc22dd493163e9a4cbcbffaedcf4a818, type: 3}
+      propertyPath: moveSpeed
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2202101342703362272, guid: dc22dd493163e9a4cbcbffaedcf4a818, type: 3}
       propertyPath: m_RootOrder
       value: 1
