@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5334471615709717253}
   - component: {fileID: 1586696514131501260}
   m_Layer: 7
-  m_Name: spaceShips_001
+  m_Name: spaceShips_007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7c5b2cf060f39ee4ca246f65be8038c0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b792aa2dfebeef246bd8fecdc39831e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: -1935236511177832336}
   - component: {fileID: 1346562950442218440}
   m_Layer: 7
-  m_Name: Enemy 0
+  m_Name: Enemy 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -212,8 +212,8 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8389082238308173574, guid: 81bc79ffef6ed314f95ed45cac477c5e, type: 3}
   projectileSpeed: 10
   projectileLifeTime: 5
-  baseFiringRate: 1
-  firingRateVariance: 0.5
+  baseFiringRate: 0.3
+  firingRateVariance: 0.1
   minimumFiringRate: 0.1
   useAI: 1
   cannonAmount: 1

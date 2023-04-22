@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8199531436699235388}
   - component: {fileID: 2018676990444232072}
   m_Layer: 7
-  m_Name: spaceMissiles_007
+  m_Name: spaceMissiles_008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 459c15a3db0217d45af552c971cdae0b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5533290cc7c8581469dc147e68e96f8b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 3999315034707481941}
   - component: {fileID: 2282259452722918645}
   m_Layer: 7
-  m_Name: Projectile_Enemy
+  m_Name: Projectile_Enemy_Type2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -178,4 +178,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3c6754834781a34a8f1b62c6a37c883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 30
